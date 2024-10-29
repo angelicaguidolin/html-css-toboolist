@@ -8,6 +8,7 @@ body{
     background-color:#F6F8F9 ;
     font-family: "Roboto", sans-serif;
 }
+/* ------HEADER----*/
 header{
     background-color: #FFFFFF;
     padding: 15px 20px;
@@ -17,8 +18,36 @@ h1{
     vertical-align: middle;
     font-weight: 800;
     font-size: 45px;
-
 }
 .logo{
     vertical-align: middle;
+}
+
+/*-------MAIN----*/
+div{
+    background-color:#FFFFFF;
+    width: 800px;
+    height: 60px;
+    margin: 40px auto;
+    border-radius: 10px;
+    padding-bottom: 2px;
+
+}
+button{
+    background-color: transparent;
+    border: 1px solid black;
+    padding: 8px;
+    border-radius: 5px;
+    margin-top: 14px;
+    margin-left: 21px;
+}
+.btn-blue{
+    background-color: #14AAF5;
+    color: #FFFFFF;
+    border-color: #14AAF5;
+
+}
+.btn-grey{
+    border-color: #C4CBD0;
+    color:#C4CBD0;
 }
